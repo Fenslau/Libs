@@ -70,6 +70,14 @@ return [
             'block_for' => null,
             'after_commit' => false,
         ],
+        
+        'async-redis' => [
+             'driver' => 'async-redis',
+             'connection' => env('WEBSOCKETS_REDIS_REPLICATION_CONNECTION', 'default'),
+             'queue' => env('REDIS_QUEUE', 'default'),
+             'retry_after' => 90,
+             'block_for' => null,
+         ],
 
     ],
 

@@ -1,1 +1,15 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.popover {
+  will-change: unset !important;
+	box-shadow: 5px 5px 5px 0 rgb(0 0 0 / 50%);
+}
+
+.user-string :visited {
+  opacity: 0.7;
+}
 
